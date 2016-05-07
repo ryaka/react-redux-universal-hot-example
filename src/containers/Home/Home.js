@@ -143,8 +143,7 @@ export default class Home extends Component {
             </dd>
             <dt>Forms</dt>
             <dd>
-              The <Link to="/survey">Survey page</Link> uses the
-              still-experimental <a href="https://github.com/erikras/redux-form" target="_blank">redux-form</a> to
+              The <Link to="/survey">Survey page</Link> uses <a href="https://github.com/erikras/redux-form" target="_blank">redux-form</a> to
               manage form state inside the Redux store. This includes immediate client-side validation.
             </dd>
             <dt>WebSockets / socket.io</dt>
